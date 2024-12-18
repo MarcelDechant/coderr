@@ -1,9 +1,7 @@
 from rest_framework.test import APITestCase
-from django.urls import reverse
 from rest_framework import status
 from django.contrib.auth.models import User
 from offers_app.models import Offer
-from decimal import Decimal
 from offers_app.api.utils import return_offer_data
 
 class OfferTestClass(APITestCase):
